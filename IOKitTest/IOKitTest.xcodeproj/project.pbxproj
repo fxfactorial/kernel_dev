@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70DECB901D4563A700AC7E83 /* IOKitTest.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 70DECB8F1D4563A700AC7E83 /* IOKitTest.hpp */; };
+		70DECB921D4563A700AC7E83 /* IOKitTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70DECB911D4563A700AC7E83 /* IOKitTest.cpp */; };
+		70FD18C51D4657E4006C1892 /* IOKitTestClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70FD18C31D4657E4006C1892 /* IOKitTestClient.cpp */; };
+		70FD18C61D4657E4006C1892 /* IOKitTestClient.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 70FD18C41D4657E4006C1892 /* IOKitTestClient.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70DECB8C1D4563A700AC7E83 /* IOKitTest.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOKitTest.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		70DECB8F1D4563A700AC7E83 /* IOKitTest.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IOKitTest.hpp; sourceTree = "<group>"; };
+		70DECB911D4563A700AC7E83 /* IOKitTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IOKitTest.cpp; sourceTree = "<group>"; };
+		70DECB931D4563A700AC7E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70FD18C31D4657E4006C1892 /* IOKitTestClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IOKitTestClient.cpp; sourceTree = "<group>"; };
+		70FD18C41D4657E4006C1892 /* IOKitTestClient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IOKitTestClient.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70DECB881D4563A700AC7E83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70DECB821D4563A700AC7E83 = {
+			isa = PBXGroup;
+			children = (
+				70DECB8E1D4563A700AC7E83 /* IOKitTest */,
+				70DECB8D1D4563A700AC7E83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70DECB8D1D4563A700AC7E83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70DECB8C1D4563A700AC7E83 /* IOKitTest.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70DECB8E1D4563A700AC7E83 /* IOKitTest */ = {
+			isa = PBXGroup;
+			children = (
+				70DECB8F1D4563A700AC7E83 /* IOKitTest.hpp */,
+				70DECB911D4563A700AC7E83 /* IOKitTest.cpp */,
+				70FD18C31D4657E4006C1892 /* IOKitTestClient.cpp */,
+				70FD18C41D4657E4006C1892 /* IOKitTestClient.hpp */,
+				70DECB931D4563A700AC7E83 /* Info.plist */,
+			);
+			path = IOKitTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		70DECB891D4563A700AC7E83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70FD18C61D4657E4006C1892 /* IOKitTestClient.hpp in Headers */,
+				70DECB901D4563A700AC7E83 /* IOKitTest.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		70DECB8B1D4563A700AC7E83 /* IOKitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70DECB961D4563A700AC7E83 /* Build configuration list for PBXNativeTarget "IOKitTest" */;
+			buildPhases = (
+				70DECB871D4563A700AC7E83 /* Sources */,
+				70DECB881D4563A700AC7E83 /* Frameworks */,
+				70DECB891D4563A700AC7E83 /* Headers */,
+				70DECB8A1D4563A700AC7E83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOKitTest;
+			productName = IOKitTest;
+			productReference = 70DECB8C1D4563A700AC7E83 /* IOKitTest.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70DECB831D4563A700AC7E83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jonathan Zdziarski";
+				TargetAttributes = {
+					70DECB8B1D4563A700AC7E83 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 70DECB861D4563A700AC7E83 /* Build configuration list for PBXProject "IOKitTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70DECB821D4563A700AC7E83;
+			productRefGroup = 70DECB8D1D4563A700AC7E83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70DECB8B1D4563A700AC7E83 /* IOKitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70DECB8A1D4563A700AC7E83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70DECB871D4563A700AC7E83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DECB921D4563A700AC7E83 /* IOKitTest.cpp in Sources */,
+				70FD18C51D4657E4006C1892 /* IOKitTestClient.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		70DECB941D4563A700AC7E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		70DECB951D4563A700AC7E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		70DECB971D4563A700AC7E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				INFOPLIST_FILE = IOKitTest/Info.plist;
+				MODULE_NAME = com.zdziarski.IOKitTest;
+				MODULE_VERSION = 1.0.0d1;
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdziarski.IOKitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		70DECB981D4563A700AC7E83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				INFOPLIST_FILE = IOKitTest/Info.plist;
+				MODULE_NAME = com.zdziarski.IOKitTest;
+				MODULE_VERSION = 1.0.0d1;
+				OTHER_CFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zdziarski.IOKitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70DECB861D4563A700AC7E83 /* Build configuration list for PBXProject "IOKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DECB941D4563A700AC7E83 /* Debug */,
+				70DECB951D4563A700AC7E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70DECB961D4563A700AC7E83 /* Build configuration list for PBXNativeTarget "IOKitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70DECB971D4563A700AC7E83 /* Debug */,
+				70DECB981D4563A700AC7E83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70DECB831D4563A700AC7E83 /* Project object */;
+}
